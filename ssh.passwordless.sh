@@ -1,7 +1,7 @@
 #!/bin/bash
 #Author: kashu
 #My Website: https://kashu.org
-#Date: 2016-01-24
+#Date: 2016-01-25
 #Filename: ssh.passwordless.sh
 #Description: Set up password-less SSH login (Not only for CentOS/RHEL/Xubuntu)
 
@@ -16,7 +16,8 @@ i_failed(){
 
 usage(){
   echo "Usage: $0 ip_address port_number username"
-	echo "Example: ssh.passwordless.sh 192.168.1.1 2222 kashu"
+	echo "Example 1: ssh.passwordless.sh 192.168.1.1"
+	echo "Example 2: ssh.passwordless.sh 192.168.1.1 2222 kashu"
   exit
 }
 
