@@ -6,8 +6,8 @@
 ### How to use:
 * ssh.passwordless.sh ip_address port_number username
 
-- Example 1: (default port number is "22", default username is "root")
+#### Example 1: (default port number is "22", default username is "root")
 * ssh.passwordless.sh 192.168.1.1
 
-- Example 2:
+#### Example 2:
 * ssh.passwordless.sh 192.168.1.1 2222 kashu
